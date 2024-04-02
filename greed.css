@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box1{
+    grid-area:qirmizi1 ;
+        background-color: red ;
+
+}
+
+.box2{
+    grid-area: rozviy2 ;
+    background-color: rgb(219, 16, 135) ;
+}
+
+.box3{
+    grid-area : narinci3 ; 
+    background-color:orangered;
+    
+}
+
+.box4{
+    grid-area: sari4 ;
+    background-color: yellow;
+}
+
+
+.box5{
+    grid-area:tundyasil5 ;
+    background-color:green ;
+}
+
+.box6{
+
+    grid-area: tundmavi6 ;
+    background-color: rgb(35, 81, 231) ;
+}
+
+.box7{
+    grid-area: sarimtilyasil7 ;
+    background-color:yellowgreen ;
+}
+
+.box8{
+    grid-area: adiyasil8 ;
+    background-color:green ;
+}
+
+.box9{
+    grid-area: aciqmavi9 ;
+    background-color: rgb(107, 107, 228) ;
+}
+
+.box10{
+    grid-area:firuzeyi10 ;
+    background-color: rgb(18, 122, 87);
+}
+
+.box11{
+    grid-area: benovseyi11;
+    background-color: rgb(63, 51, 136) ;
+}
+
+.box12{
+    grid-area: qirmizi2 ; 
+        background-color:red ;
+}
+.container{
+   display: grid;
+    width: 100%;
+    height: 600px;
+    grid-template-areas: 'qirmizi1 rozviy2 narinci3 narinci3 sari4'
+                         'tundyasil5 rozviy2 narinci3 narinci3 tundmavi6'
+                         'sarimtilyasil7 adiyasil8  narinci3 narinci3 firuzeyi10'
+                         'benovseyi11 benovseyi11 narinci3 narinci3 qirmizi2';
+}
+.container div{
+border: solid white 3px;
+display: flex;
+align-items: center;
+justify-content: center; }
